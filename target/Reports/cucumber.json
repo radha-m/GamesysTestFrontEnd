@@ -1,0 +1,146 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify Virgin Games login with in valid credentials",
+        "description": "",
+        "id": "virgin-games-login;verify-virgin-games-login-with-in-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16505389712,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I have opened Virgin Games URL in browser",
+            "match": {
+              "location": "LoginStep.openVirginGamesURL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2548359592,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I navigates the user login",
+            "match": {
+              "location": "LoginStep.gotologin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1128693443,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter invalid user credentials",
+            "match": {
+              "location": "LoginStep.enterWrongCredentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 773710211,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should be presented with login failed error message",
+            "match": {
+              "location": "LoginStep.validateErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@InValidLogin"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Verify Virgin Games login with valid credentials",
+        "description": "",
+        "id": "virgin-games-login;verify-virgin-games-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6847300816,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I have opened Virgin Games URL in browser",
+            "match": {
+              "location": "LoginStep.openVirginGamesURL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2306541386,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I navigates the user login",
+            "match": {
+              "location": "LoginStep.gotologin()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 883955588,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter valid user credentials",
+            "match": {
+              "location": "LoginStep.enterValidCredentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 621341008,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should be successfully log in",
+            "match": {
+              "location": "LoginStep.validateLogin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@ValidLogin"
+          }
+        ]
+      }
+    ],
+    "name": "Virgin Games Login",
+    "description": "",
+    "id": "virgin-games-login",
+    "keyword": "Feature",
+    "uri": "Login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Login"
+      }
+    ]
+  }
+]
