@@ -1,8 +1,8 @@
 #surefire
-#Tue Dec 11 23:45:03 GMT 2018
-dirscanner.0.params=/Users/tharanibabu/Desktop/Radha/LocalRepo1/Gamesys/target/test-classes|[**/Test*.java, **/*Test.java, **/*TestCase.java]|[**/*$*]
+#Mon Dec 17 23:01:44 GMT 2018
+dirscanner.0.params=/Users/tharanibabu/Desktop/Radha/GamesysFrontendTest/GamesysFrontendTest/target/test-classes|[**/Test*.java, **/*Test.java, **/*TestCase.java]|[**/*$*]
 enableAssertions=true
-testSuiteDefinitionTestSourceDirectory=/Users/tharanibabu/Desktop/Radha/LocalRepo1/Gamesys/src/test/java
+testSuiteDefinitionTestSourceDirectory=/Users/tharanibabu/Desktop/Radha/GamesysFrontendTest/GamesysFrontendTest/src/test/java
 classPathUrl.35=/Users/tharanibabu/.m2/repository/ch/qos/logback/logback-core/1.0.13/logback-core-1.0.13.jar
 classPathUrl.34=/Users/tharanibabu/.m2/repository/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.jar
 classPathUrl.33=/Users/tharanibabu/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar
@@ -19,9 +19,9 @@ classPathUrl.5=/Users/tharanibabu/.m2/repository/org/hamcrest/hamcrest-core/1.3/
 classPathUrl.4=/Users/tharanibabu/.m2/repository/junit/junit/4.12/junit-4.12.jar
 classPathUrl.3=/Users/tharanibabu/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar
 classPathUrl.2=/Users/tharanibabu/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar
-classPathUrl.1=/Users/tharanibabu/Desktop/Radha/LocalRepo1/Gamesys/target/classes
+classPathUrl.1=/Users/tharanibabu/Desktop/Radha/GamesysFrontendTest/GamesysFrontendTest/target/classes
 report.2=org.apache.maven.surefire.report.XMLReporter
-classPathUrl.0=/Users/tharanibabu/Desktop/Radha/LocalRepo1/Gamesys/target/test-classes
+classPathUrl.0=/Users/tharanibabu/Desktop/Radha/GamesysFrontendTest/GamesysFrontendTest/target/test-classes
 report.1=org.apache.maven.surefire.report.BriefFileReporter
 childDelegation=false
 report.0=org.apache.maven.surefire.report.ForkingConsoleReporter
@@ -32,7 +32,7 @@ classPathUrl.27=/Users/tharanibabu/.m2/repository/com/squareup/okhttp3/okhttp/3.
 classPathUrl.26=/Users/tharanibabu/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar
 classPathUrl.25=/Users/tharanibabu/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar
 classPathUrl.24=/Users/tharanibabu/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar
-reportsDirectory=/Users/tharanibabu/Desktop/Radha/LocalRepo1/Gamesys/target/surefire-reports
+reportsDirectory=/Users/tharanibabu/Desktop/Radha/GamesysFrontendTest/GamesysFrontendTest/target/surefire-reports
 classPathUrl.23=/Users/tharanibabu/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar
 classPathUrl.22=/Users/tharanibabu/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
 classPathUrl.21=/Users/tharanibabu/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar
@@ -43,7 +43,7 @@ includes0=**/Test*.java
 excludes0=**/*$*
 failIfNoTests=false
 useManifestOnlyJar=true
-testClassesDirectory=/Users/tharanibabu/Desktop/Radha/LocalRepo1/Gamesys/target/test-classes
+testClassesDirectory=/Users/tharanibabu/Desktop/Radha/GamesysFrontendTest/GamesysFrontendTest/target/test-classes
 dirscanner.0.types=java.io.File|java.util.ArrayList|java.util.ArrayList
 dirscanner.0=directoryScannerOptions
 classPathUrl.19=/Users/tharanibabu/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar

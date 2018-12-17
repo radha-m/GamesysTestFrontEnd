@@ -2,6 +2,7 @@ package PageObject;
 
 import Utilities.readPropConfig;
 import org.junit.Assert;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -17,10 +18,12 @@ import org.slf4j.LoggerFactory;
  */
 public class LoginPage {
 
+    WebDriver driver;
     readPropConfig readprop = new readPropConfig();
     private final Logger logger = LoggerFactory.getLogger(LoginPage.class);
 
     public LoginPage(WebDriver driver) {
+        this.driver = driver;
         PageFactory.initElements(driver, this);
 
     }
@@ -33,10 +36,10 @@ public class LoginPage {
     @FindBy(how = How.XPATH , using = "//button[@type='submit']")
     protected WebElement submit;
 
-    @FindBy(how = How.CSS , using = ".div[class=output]']")
+    @FindBy(how = How.XPATH , using = ".//div[@class='error-message']/*[@class='output']")
     protected WebElement err_message;
 
-    @FindBy(how = How.XPATH , using = "//a[contains(text(),'Home')]")
+    @FindBy(how = How.XPATH , using = "//button[@title='Open the menu']")
     protected WebElement home;
 
 
@@ -50,11 +53,13 @@ public class LoginPage {
     }
 
     public void validate_invalidLogin(){
-        if (err_message!= null) {
+
+
+        if (err_message.getAttribute("data-qa").equalsIgnoreCase("login-form__error-message")) {
             Assert.assertTrue("Login with Invalid user details throwing error message - successful", true);
             logger.info("Inside Login Page -  Invalid Login test is successful");
         }else{
-            Assert.assertTrue("Login with Invalid user details - failed", false);
+            Assert.fail("Login with Invalid user details - failed");
             logger.info("Inside Login Page -  Invalid Login test failed");
         }
     }
@@ -69,13 +74,22 @@ public class LoginPage {
     }
 
 
-    public void validate_validLogin(){
-        if (home!= null) {
-            Assert.assertTrue("Login with valid user redirected to the home page - successful", true);
-            logger.info("Inside Login Page -  valid Login test is successful");
-        }else{
-            Assert.assertTrue("Login with valid user details - failed", false);
+    public void validate_validLogin() {
+        String homelink = null;
+        try {
+            homelink = home.getText();
+        } catch (Exception ex) {
+            Assert.fail("Login with valid user details - failed");
             logger.info("Inside Login Page -  Valid Login test failed");
+        }
+        if (homelink != null) {
+            if (homelink.equalsIgnoreCase("Menu")) {
+                Assert.assertTrue("Login with valid user redirected to the home page - successful", true);
+                logger.info("Inside Login Page -  valid Login test is successful");
+            } else {
+                Assert.fail("Login with valid user details - failed");
+                logger.info("Inside Login Page -  Valid Login test failed");
+            }
         }
     }
 }

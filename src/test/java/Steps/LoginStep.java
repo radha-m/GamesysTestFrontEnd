@@ -2,6 +2,8 @@ package Steps;
 
 
 import com.gamesys.framework.BaseSetup;
+import org.junit.After;
+import org.junit.AfterClass;
 import org.openqa.selenium.WebDriver;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -72,11 +74,18 @@ public class LoginStep {
 
     @Then("^I should be successfully log in$")
     public void validateLogin() throws Throwable {
-        login.validate_invalidLogin();
+        login.validate_validLogin();
         logger.info("Valid Login Test Completed");
         scrnshot.takeSnapShot(driver,"LoginPage - valid - Home Page");
         setup.closeBrowser(driver);
         logger.info("closing the browser");
+    }
+
+    @AfterClass
+    public void after()
+    {
+        setup.closeBrowser(driver);
+        logger.info("After -closing the browser");
     }
 
 }
