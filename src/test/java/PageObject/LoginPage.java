@@ -54,7 +54,6 @@ public class LoginPage {
 
     public void validate_invalidLogin(){
 
-
         if (err_message.getAttribute("data-qa").equalsIgnoreCase("login-form__error-message")) {
             Assert.assertTrue("Login with Invalid user details throwing error message - successful", true);
             logger.info("Inside Login Page -  Invalid Login test is successful");

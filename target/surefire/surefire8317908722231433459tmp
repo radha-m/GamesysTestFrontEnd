@@ -1,5 +1,5 @@
 #surefire
-#Mon Dec 17 23:01:44 GMT 2018
+#Tue Dec 18 06:52:07 GMT 2018
 dirscanner.0.params=/Users/tharanibabu/Desktop/Radha/GamesysFrontendTest/GamesysFrontendTest/target/test-classes|[**/Test*.java, **/*Test.java, **/*TestCase.java]|[**/*$*]
 enableAssertions=true
 testSuiteDefinitionTestSourceDirectory=/Users/tharanibabu/Desktop/Radha/GamesysFrontendTest/GamesysFrontendTest/src/test/java

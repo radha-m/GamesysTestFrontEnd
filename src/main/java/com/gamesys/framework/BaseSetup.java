@@ -29,8 +29,5 @@ public class BaseSetup {
     }
 
 
-    public void closeBrowser(WebDriver driver){
-        driver.close();
-        driver.quit();
-    }
+
 }

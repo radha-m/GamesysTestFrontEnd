@@ -2,8 +2,7 @@ package Steps;
 
 
 import com.gamesys.framework.BaseSetup;
-import org.junit.After;
-import org.junit.AfterClass;
+import cucumber.api.java.After;
 import org.openqa.selenium.WebDriver;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -60,9 +59,7 @@ public class LoginStep {
         login.validate_invalidLogin();
         logger.info("Invalid Login Test Completed");
         scrnshot.takeSnapShot(driver,"LoginPage - Invalid - Error Message");
-        setup.closeBrowser(driver);
-        logger.info("closing the browser");
-    }
+        }
 
     @When("^I enter valid user credentials$")
     public void enterValidCredentials() throws Throwable {
@@ -77,15 +74,15 @@ public class LoginStep {
         login.validate_validLogin();
         logger.info("Valid Login Test Completed");
         scrnshot.takeSnapShot(driver,"LoginPage - valid - Home Page");
-        setup.closeBrowser(driver);
+
+    }
+
+    @After
+    public void closeBrowser() {
+        driver.close();
+        driver.quit();
         logger.info("closing the browser");
     }
 
-    @AfterClass
-    public void after()
-    {
-        setup.closeBrowser(driver);
-        logger.info("After -closing the browser");
-    }
 
 }

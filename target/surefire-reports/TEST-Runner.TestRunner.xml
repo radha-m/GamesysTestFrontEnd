@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="10" failures="0" name="Runner.TestRunner" time="18.544" errors="2" skipped="3">
+<testsuite tests="10" failures="0" name="Runner.TestRunner" time="30.212" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2017.1.5"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -21,7 +21,7 @@
     <property name="basedir" value="/Users/tharanibabu/Desktop/Radha/GamesysFrontendTest/GamesysFrontendTest"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre/lib/endorsed"/>
     <property name="os.arch" value="x86_64"/>
-    <property name="surefire.real.class.path" value="/Users/tharanibabu/Desktop/Radha/GamesysFrontendTest/GamesysFrontendTest/target/surefire/surefirebooter1964198473011512506.jar"/>
+    <property name="surefire.real.class.path" value="/Users/tharanibabu/Desktop/Radha/GamesysFrontendTest/GamesysFrontendTest/target/surefire/surefirebooter3280141591241189278.jar"/>
     <property name="java.io.tmpdir" value="/var/folders/q4/3_3qz3fx16qbn0k5p36f1phc0000gn/T/"/>
     <property name="line.separator" value="
 "/>
@@ -45,7 +45,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="/Users/tharanibabu/Desktop/Radha/GamesysFrontendTest/GamesysFrontendTest/target/surefire/surefirebooter1964198473011512506.jar /Users/tharanibabu/Desktop/Radha/GamesysFrontendTest/GamesysFrontendTest/target/surefire/surefire5944554801041607864tmp /Users/tharanibabu/Desktop/Radha/GamesysFrontendTest/GamesysFrontendTest/target/surefire/surefire8497058510678568173tmp"/>
+    <property name="sun.java.command" value="/Users/tharanibabu/Desktop/Radha/GamesysFrontendTest/GamesysFrontendTest/target/surefire/surefirebooter3280141591241189278.jar /Users/tharanibabu/Desktop/Radha/GamesysFrontendTest/GamesysFrontendTest/target/surefire/surefire8317908722231433459tmp /Users/tharanibabu/Desktop/Radha/GamesysFrontendTest/GamesysFrontendTest/target/surefire/surefire4954158352076200044tmp"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -64,108 +64,14 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="Scenario: Verify Virgin Games login with in valid credentials" name="Given I have opened Virgin Games URL in browser" time="0"/>
+  <testcase classname="Scenario: Verify Virgin Games login with in valid credentials" name="Given I have opened Virgin Games URL in browser" time="0.001"/>
   <testcase classname="Scenario: Verify Virgin Games login with in valid credentials" name="And I navigates the user login" time="0.003"/>
   <testcase classname="Scenario: Verify Virgin Games login with in valid credentials" name="When I enter invalid user credentials" time="0"/>
   <testcase classname="Scenario: Verify Virgin Games login with in valid credentials" name="Then I should be presented with login failed error message" time="0"/>
-  <testcase classname="Scenario: Verify Virgin Games login with in valid credentials" name="Scenario: Verify Virgin Games login with in valid credentials" time="0.001"/>
-  <testcase classname="Scenario: Verify Virgin Games login with valid credentials" name="Given I have opened Virgin Games URL in browser" time="0.002">
-    <error message="no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=71.0.3578.98)
-  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;TharaniabusMini&apos;, ip: &apos;192.168.0.18&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14&apos;, java.version: &apos;1.8.0_171&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609545 (c2f88692e98ce7..., userDataDir: /var/folders/q4/3_3qz3fx16q...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62845}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
-Session ID: fdc8b580260ce17bef4f75dc822ced18" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=71.0.3578.98)
-  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;TharaniabusMini&apos;, ip: &apos;192.168.0.18&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14&apos;, java.version: &apos;1.8.0_171&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609545 (c2f88692e98ce7..., userDataDir: /var/folders/q4/3_3qz3fx16q...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62845}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
-Session ID: fdc8b580260ce17bef4f75dc822ced18
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-	at Utilities.TakeScreenShot.takeSnapShot(TakeScreenShot.java:26)
-	at Steps.LoginStep.openVirginGamesURL(LoginStep.java:39)
-	at ✽.Given I have opened Virgin Games URL in browser(Login.feature:15)
-</error>
-    <system-out>
-  @InValidLogin
-  Scenario: Verify Virgin Games login with in valid credentials &amp;#27;[90m# Login.feature:5&amp;#27;[0m
-    &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI have opened Virgin Games URL in browser&amp;#27;[0m             &amp;#27;[90m# LoginStep.openVirginGamesURL()&amp;#27;[0m
-    &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI navigates the user login&amp;#27;[0m                              &amp;#27;[90m# LoginStep.gotologin()&amp;#27;[0m
-    &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mI enter invalid user credentials&amp;#27;[0m                       &amp;#27;[90m# LoginStep.enterWrongCredentials()&amp;#27;[0m
-    &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI should be presented with login failed error message&amp;#27;[0m  &amp;#27;[90m# LoginStep.validateErrorMessage()&amp;#27;[0m
-23:02:57.622 [main] INFO  PageObject.LoginPage - Initial Setup
-</system-out>
-    <system-err>Dec 17, 2018 11:02:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-</system-err>
-  </testcase>
-  <testcase classname="Scenario: Verify Virgin Games login with valid credentials" name="Scenario: Verify Virgin Games login with valid credentials" time="0.003">
-    <error message="no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=71.0.3578.98)
-  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;TharaniabusMini&apos;, ip: &apos;192.168.0.18&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14&apos;, java.version: &apos;1.8.0_171&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609545 (c2f88692e98ce7..., userDataDir: /var/folders/q4/3_3qz3fx16q...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62845}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
-Session ID: fdc8b580260ce17bef4f75dc822ced18" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=71.0.3578.98)
-  (Driver info: chromedriver=2.44.609545 (c2f88692e98ce7233d2df7c724465ecacfe74df5),platform=Mac OS X 10.14.0 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;TharaniabusMini&apos;, ip: &apos;192.168.0.18&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14&apos;, java.version: &apos;1.8.0_171&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.44.609545 (c2f88692e98ce7..., userDataDir: /var/folders/q4/3_3qz3fx16q...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62845}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 71.0.3578.98, webStorageEnabled: true}
-Session ID: fdc8b580260ce17bef4f75dc822ced18
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-	at Utilities.TakeScreenShot.takeSnapShot(TakeScreenShot.java:26)
-	at Steps.LoginStep.openVirginGamesURL(LoginStep.java:39)
-	at ✽.Given I have opened Virgin Games URL in browser(Login.feature:15)
-</error>
-  </testcase>
-  <testcase classname="Scenario: Verify Virgin Games login with valid credentials" name="And I navigates the user login" time="0.005">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Verify Virgin Games login with valid credentials" name="When I enter valid user credentials" time="0.007">
-    <skipped/>
-  </testcase>
-  <testcase classname="Scenario: Verify Virgin Games login with valid credentials" name="Then I should be successfully log in" time="0.008">
-    <skipped/>
-  </testcase>
+  <testcase classname="Scenario: Verify Virgin Games login with in valid credentials" name="Scenario: Verify Virgin Games login with in valid credentials" time="0.153"/>
+  <testcase classname="Scenario: Verify Virgin Games login with valid credentials" name="Given I have opened Virgin Games URL in browser" time="0"/>
+  <testcase classname="Scenario: Verify Virgin Games login with valid credentials" name="And I navigates the user login" time="0"/>
+  <testcase classname="Scenario: Verify Virgin Games login with valid credentials" name="When I enter valid user credentials" time="0"/>
+  <testcase classname="Scenario: Verify Virgin Games login with valid credentials" name="Then I should be successfully log in" time="0"/>
+  <testcase classname="Scenario: Verify Virgin Games login with valid credentials" name="Scenario: Verify Virgin Games login with valid credentials" time="0.256"/>
 </testsuite>
