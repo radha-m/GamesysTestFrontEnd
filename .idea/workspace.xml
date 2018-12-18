@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6cfea55c-2dac-4978-8969-5f7706e84e39" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire5944554801041607864tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire8374611217316340124tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire8497058510678568173tmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire8566774357198465983tmp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/gamesys/framework/BaseSetup.class" afterPath="$PROJECT_DIR$/target/classes/com/gamesys/framework/BaseSetup.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/screenshots/Home Page" afterPath="$PROJECT_DIR$/target/screenshots/Home Page" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/screenshots/LoginPage - Invalid" afterPath="$PROJECT_DIR$/target/screenshots/LoginPage - Invalid" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/screenshots/LoginPage - Invalid - Error Message" afterPath="$PROJECT_DIR$/target/screenshots/LoginPage - Invalid - Error Message" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/screenshots/LoginPage - valid " afterPath="$PROJECT_DIR$/target/screenshots/LoginPage - valid " />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/screenshots/LoginPage - valid - Home Page" afterPath="$PROJECT_DIR$/target/screenshots/LoginPage - valid - Home Page" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/PageObject/LoginPage.class" afterPath="$PROJECT_DIR$/target/test-classes/PageObject/LoginPage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Steps/LoginStep.class" afterPath="$PROJECT_DIR$/target/test-classes/Steps/LoginStep.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/gamesys/framework/BaseSetup.java" afterPath="$PROJECT_DIR$/src/main/java/com/gamesys/framework/BaseSetup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/Resources/config.properties" afterPath="$PROJECT_DIR$/src/test/Resources/config.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/PageObject/LoginPage.java" afterPath="$PROJECT_DIR$/src/test/java/PageObject/LoginPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Steps/LoginStep.java" afterPath="$PROJECT_DIR$/src/test/java/Steps/LoginStep.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Reports/cucumber.json" afterPath="$PROJECT_DIR$/target/Reports/cucumber.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Reports/report.js" afterPath="$PROJECT_DIR$/target/Reports/report.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/Runner.TestRunner.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/Runner.TestRunner.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Runner.TestRunner.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Runner.TestRunner.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +17,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestRunner.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestRunner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Runner/TestRunner.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -44,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PageObject/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="56" column="8" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
+            <state relative-caret-position="179">
+              <caret line="62" column="77" lean-forward="false" selection-start-line="62" selection-start-column="77" selection-end-line="62" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -57,8 +40,8 @@
       <file leaf-file-name="config.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/Resources/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -119,11 +102,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/test/java/Steps/Afterz.java" />
-        <option value="$PROJECT_DIR$/src/test/Resources/config.properties" />
         <option value="$PROJECT_DIR$/src/test/java/Steps/LoginStep.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gamesys/framework/BaseSetup.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PageObject/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/Runner/TestRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/Resources/config.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObject/LoginPage.java" />
       </list>
     </option>
   </component>
@@ -677,39 +660,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestRunner - 2018.12.18 at 06h 15m 42s.xml">
+    <history-entry file="TestRunner - 2018.12.18 at 07h 54m 12s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2018.12.18 at 06h 23m 42s.xml">
+    <history-entry file="TestRunner - 2018.12.18 at 07h 55m 43s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2018.12.18 at 06h 24m 42s.xml">
+    <history-entry file="TestRunner - 2018.12.18 at 07h 57m 06s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2018.12.18 at 06h 27m 20s.xml">
+    <history-entry file="TestRunner - 2018.12.18 at 07h 58m 28s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2018.12.18 at 06h 35m 40s.xml">
+    <history-entry file="TestRunner - 2018.12.18 at 08h 01m 48s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2018.12.18 at 06h 40m 51s.xml">
+    <history-entry file="TestRunner - 2018.12.18 at 08h 12m 06s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2018.12.18 at 06h 42m 32s.xml">
+    <history-entry file="TestRunner - 2018.12.18 at 08h 12m 51s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2018.12.18 at 06h 46m 22s.xml">
+    <history-entry file="TestRunner - 2018.12.18 at 08h 13m 59s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2018.12.18 at 06h 47m 59s.xml">
+    <history-entry file="TestRunner - 2018.12.18 at 08h 19m 47s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestRunner - 2018.12.18 at 06h 50m 38s.xml">
+    <history-entry file="TestRunner - 2018.12.18 at 08h 22m 08s.xml">
       <configuration name="TestRunner" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="68" y="23" width="1783" height="1010" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -719,7 +703,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969558" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969558" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295964" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -775,17 +759,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/PageObject/LoginPage.java</url>
-          <line>75</line>
-          <properties class="PageObject.LoginPage" method="validate_validLogin">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="21" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1127,14 +1101,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Steps/Afterz.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/Resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gamesys/framework/BaseSetup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -1163,14 +1129,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObject/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="56" column="8" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Features/Login.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1183,6 +1141,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="32" lean-forward="false" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/Resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObject/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="62" column="77" lean-forward="false" selection-start-line="62" selection-start-column="77" selection-end-line="62" selection-end-column="77" />
           <folding />
         </state>
       </provider>

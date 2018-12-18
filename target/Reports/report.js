@@ -50,32 +50,32 @@ formatter.match({
   "location": "LoginStep.openVirginGamesURL()"
 });
 formatter.result({
-  "duration": 7283936491,
+  "duration": 7313107218,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.gotologin()"
 });
 formatter.result({
-  "duration": 2543262221,
+  "duration": 3005949767,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.enterWrongCredentials()"
 });
 formatter.result({
-  "duration": 956250809,
+  "duration": 993367297,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.validateErrorMessage()"
 });
 formatter.result({
-  "duration": 398247559,
+  "duration": 420843474,
   "status": "passed"
 });
 formatter.after({
-  "duration": 151094121,
+  "duration": 171924000,
   "status": "passed"
 });
 formatter.scenario({
@@ -116,32 +116,32 @@ formatter.match({
   "location": "LoginStep.openVirginGamesURL()"
 });
 formatter.result({
-  "duration": 5501409378,
+  "duration": 5894171479,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.gotologin()"
 });
 formatter.result({
-  "duration": 2821294769,
+  "duration": 2940759193,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.enterValidCredentials()"
 });
 formatter.result({
-  "duration": 921694259,
+  "duration": 961711849,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStep.validateLogin()"
 });
 formatter.result({
-  "duration": 8925057126,
+  "duration": 8451908772,
   "status": "passed"
 });
 formatter.after({
-  "duration": 254889324,
+  "duration": 403241996,
   "status": "passed"
 });
 });

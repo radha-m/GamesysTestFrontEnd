@@ -36,7 +36,8 @@ public class LoginPage {
     @FindBy(how = How.XPATH , using = "//button[@type='submit']")
     protected WebElement submit;
 
-    @FindBy(how = How.XPATH , using = ".//div[@class='error-message']/*[@class='output']")
+    //@FindBy(how = How.XPATH , using = ".//div[@class='error-message']/*[@class='output']")
+    @FindBy(how = How.CSS , using = "//div[class='output']")
     protected WebElement err_message;
 
     @FindBy(how = How.XPATH , using = "//button[@title='Open the menu']")
@@ -53,8 +54,13 @@ public class LoginPage {
     }
 
     public void validate_invalidLogin(){
+        String script = "return window.getComputedStyle(document.querySelector('.output'),':before').getPropertyValue('background')";
+        JavascriptExecutor js = (JavascriptExecutor)driver;
+        String content = (String) js.executeScript(script);
+        System.out.println(content);
 
-        if (err_message.getAttribute("data-qa").equalsIgnoreCase("login-form__error-message")) {
+        //if (err_message.getAttribute("data-qa").equalsIgnoreCase("login-form__error-message")) {
+        if (content.contains(readprop.getConfig("invalid_login_err_message"))){
             Assert.assertTrue("Login with Invalid user details throwing error message - successful", true);
             logger.info("Inside Login Page -  Invalid Login test is successful");
         }else{
@@ -82,7 +88,7 @@ public class LoginPage {
             logger.info("Inside Login Page -  Valid Login test failed");
         }
         if (homelink != null) {
-            if (homelink.equalsIgnoreCase("Menu")) {
+            if (homelink.equalsIgnoreCase(readprop.getConfig("homelink_text"))) {
                 Assert.assertTrue("Login with valid user redirected to the home page - successful", true);
                 logger.info("Inside Login Page -  valid Login test is successful");
             } else {
